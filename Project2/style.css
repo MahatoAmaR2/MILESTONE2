@@ -1,0 +1,27 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+body{
+    background-color: #0c0c0c;
+    color: #fff;
+    width: 100vw;
+    height: 100vh;
+}
+.top{
+    text-align: center;
+}
+.heading{
+    margin: 15px 0px;
+    font-size: 40px;
+}
+input{
+    width: 40%;
+    height: 30px;
+    border-radius: 4px;
+    padding: 8px;
+    border: none;
+    outline: none;
+    text-align: center;
+}

@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Blog form</title>
+    <style>
+      * {
+        padding: 0;
+        margin: 0;
+        box-sizing: border-box;
+      }
+      .add-blog {
+        height: 100vh;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+      }
+      .blog {
+        width: 500px;
+        background-color: #868686;
+        padding: 0px 20px;
+      }
+      form {
+        display: flex;
+        flex-direction: column;
+      }
+      input {
+        width: 100%;
+        height: 35px;
+        margin-bottom: 10px;
+        padding-left: 8px;
+      }
+      h2 {
+        text-align: right;
+      }
+      textarea {
+        padding-left: 8px;
+        padding-top: 8px;
+      }
+      .submit {
+        margin: 10px 0px 35px 0px;
+      }
+      .close_btn {
+        cursor: pointer;
+      }
+    </style>
+  </head>
+  <body>
+    <div class="add-blog">
+      <div class="blog">
+        <h2 class="close_btn">x</h2>
+        <form action="">
+          <input type="url" placeholder="Enter Blog Poster URL:" />
+          <input type="text" placeholder="Enter Blog Title:" />
+          <input type="text" placeholder="Enter Blog Description" />
+          <textarea
+            name=""
+            id=""
+            cols="30"
+            rows="10"
+            placeholder="Write.."
+          ></textarea>
+          <input type="submit" value="Add Blog" class="submit" />
+        </form>
+      </div>
+    </div>
+  </body>
+</html>
+
+<!-- use condition to load the data after that set the item
+
+if (localStorage.getItem('yourDataKey')) {
+  const data = localStorage.getItem('yourDataKey');
+  // Display the data on your webpage.
+}
+
+const dataToStore = "Your data to be saved.";
+localStorage.setItem('yourDataKey', dataToStore);
+
+this is how you use save the data from your page -->
+
+<!-- to save the data in local storage
+
+o handle multiple cards and their data, you should use an array to store 
+the data in localStorage and update the code to retrieve and display that data.
+
+to*
+
+firstly store the value into an array
+
+then it'll easier for you to retrive -->
